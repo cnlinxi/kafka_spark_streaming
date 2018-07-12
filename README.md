@@ -7,14 +7,14 @@ We produce some simulated streaming data and put them into kafka. Spark streamin
 
 ### Get Started
 
-##### main dependencies 
+####main dependencies
 
 - [Kafka](http://kafka.apache.org/): Kafka is used for building real-time data pipelines and streaming apps. 
 - [Spark streaming](https://spark.apache.org/streaming/): Spark streaming process streaming data.
 - [MongoDB](https://www.mongodb.com/): MongoDB is used for storing data.
 - [bokeh](https://bokeh.pydata.org/en/latest/): bokeh display data~
 
-##### run it
+####run it
 
 *In your shell,*
 
@@ -26,7 +26,7 @@ We produce some simulated streaming data and put them into kafka. Spark streamin
 
 -  produce data into kafka.
 
-  ```shell
+  ```
   python producer.py
   ```
 
