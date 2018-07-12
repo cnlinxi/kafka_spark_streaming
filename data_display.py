@@ -72,5 +72,7 @@ def update():
     new_data_heart=dict(time=[pd.to_datetime(data_dict['timestamp'])],heart_rate=[int(data_dict['heart_rate'])])
     source_heart.stream(new_data=new_data_heart,rollover=200)
 
+# the second parameter is refresh duration, unit is millisecond
+# refer to https://bokeh.pydata.org/en/latest/docs/reference/document.html#bokeh.document.document.Document
 curdoc().add_periodic_callback(update, global_vals.data_produce_duration*1000)
 curdoc().add_root(column(fig_steps,fig_heart))

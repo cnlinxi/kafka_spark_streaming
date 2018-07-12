@@ -9,7 +9,8 @@
 '''
 receive data coming from kafka (producer.py) and insert data into mongodb
 '''
-# debug spark—submit by pycharm: https://blog.csdn.net/zj1244/article/details/78893837
+# debug spark—submit by pycharm (Chinese): https://blog.csdn.net/zj1244/article/details/78893837
+# (English): https://stackoverflow.com/questions/35560767/pyspark-streaming-with-kafka-in-pycharm
 
 from pyspark import SparkContext
 from pyspark.streaming import StreamingContext
