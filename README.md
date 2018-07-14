@@ -63,6 +63,6 @@ We produce some simulated streaming data and put them into kafka. Spark streamin
 
 cnmengnan@gmail.com
 
-blog: [WinterColor blog](http://wintercolor.azurewebsites.net/)
+blog: [WinterColor blog](http://www.cnblogs.com/mengnan/)
 
 engoy it~
