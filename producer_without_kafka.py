@@ -27,7 +27,7 @@ def produce_data():
             }
             mongo_utils.insert_data(data_dict)
             # print(data_dict)
-            time.sleep(3)
+            time.sleep(1)
 
     thread_list = [threading.Thread(target=work, args=(i,)) for i in range(num_user)]
     for thread in thread_list:
