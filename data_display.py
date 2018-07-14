@@ -33,8 +33,8 @@ tooltips_heart = """
 ### steps figure
 fig_steps = figure(plot_width=1000, plot_height=300, x_axis_type='datetime',
                    title='steps per {} second'.format(global_vals.data_produce_duration))
-fig_steps.xaxis.axis_label = 'steps'  # axis label
-fig_steps.yaxis.axis_label = 'time'
+fig_steps.xaxis.axis_label = 'time'  # axis label
+fig_steps.yaxis.axis_label = 'steps'
 fig_steps.background_fill_color = 'beige'  # the color of background is 'beige'
 fig_steps.background_fill_alpha = 0.5
 source_steps = ColumnDataSource(data=dict(x=[pd.to_datetime(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()))],
@@ -50,8 +50,8 @@ fig_steps.add_tools(hover)
 # heart rate figure
 fig_heart = figure(plot_width=1000, plot_height=300, x_axis_type='datetime',
                    title='heart rate per {} second'.format(global_vals.data_produce_duration))
-fig_heart.xaxis.axis_label = 'heart rate'  # axis label
-fig_heart.yaxis.axis_label = 'time'
+fig_heart.xaxis.axis_label = 'time'  # axis label
+fig_heart.yaxis.axis_label = 'heart rate'
 fig_heart.background_fill_color = 'beige'  # the color of background is 'beige'
 fig_heart.background_fill_alpha = 0.5
 source_heart = ColumnDataSource(data=dict(time=[pd.to_datetime(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()))],

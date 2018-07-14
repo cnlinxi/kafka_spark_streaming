@@ -49,6 +49,7 @@ def produce_data():
 
     # block it to run forever
     while True:
+        time.sleep(6000)
         pass
 
 if __name__ == '__main__':
