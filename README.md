@@ -1,7 +1,7 @@
 # python producer.pykafka_spark_streaming
 A very simple example of using streaming data by kafka &amp; spark streaming &amp; mongodb & bokeh
 
-![](http://7xrvee.com1.z0.glb.clouddn.com/18-7-14/35335719.jpg)
+![](http://wintercolor.oss-cn-shanghai.aliyuncs.com/18-10-9/43141993.jpg)
 
 We produce some simulated streaming data and put them into kafka. Spark streaming comsume streaming data and insert data into mongodb. Then we use boken to display streaming data dynamically.
 
